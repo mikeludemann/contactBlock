@@ -1,0 +1,245 @@
+body {
+    background: #20262E;
+    font-family: Helvetica;
+}
+
+/* Left Overlay */
+
+#contact-left {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+    transform: rotate(-90deg);
+    transition: all 1s;
+}
+
+.contact-text-left {
+    background-color: green;
+    color: white;
+    position: relative;
+    top: -50%;
+    left: 0;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.contact-overlay-left {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: -170px;
+    left: -65px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: 14px;
+    z-index: 2;
+    transform: rotate(90deg);
+    transition: all 1s;
+}
+
+.active-left {
+    top: 50px;
+    transition: all 1s;
+}
+
+/* Right Overlay */
+
+#contact-right {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+    transform: rotate(90deg);
+    transition: all 1s;
+}
+
+.contact-text-right {
+    background-color: green;
+    color: white;
+    position: relative;
+    top: -50%;
+    right: 20px;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.contact-overlay-right {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: -170px;
+    right: -65px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: 14px;
+    z-index: 2;
+    transform: rotate(-90deg);
+    transition: all 1s;
+}
+
+.active-right {
+    top: 50px;
+    transition: all 1s;
+}
+
+/* Top Overlay */
+
+#contact-top {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 10px;
+    margin-left: -30px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+}
+
+.contact-text-top {
+    background-color: green;
+    color: white;
+    position: relative;
+    top: -50%;
+    right: 20px;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.contact-overlay-top {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: -120px;
+    right: -62.5px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: 14px;
+    z-index: 2;
+    transform: rotate(0deg);
+    transition: all 1s;
+}
+
+.active-top {
+    top: 0px;
+    transition: all 1s;
+}
+
+/* Bottom Overlay */
+
+#contact-bottom {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 10px;
+    margin-left: -30px;
+    margin-top: -10px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+}
+
+.contact-text-bottom {
+    background-color: green;
+    color: white;
+    position: relative;
+    bottom: -50%;
+    right: 20px;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    margin-top: -20px;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.contact-overlay-bottom {
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: -140px;
+    right: -62.5px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: 14px;
+    z-index: 2;
+    transform: rotate(0deg);
+    transition: all 1s;
+}
+
+.active-bottom {
+    bottom: 0px;
+    transition: all 1s;
+}
+
+/* General Styles */
+
+.contact-overlay-left, .contact-overlay-right, .contact-overlay-bottom, .contact-overlay-top > div {
+    padding: 10px;
+}
+
+#contact-right {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    padding: 10px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+
+#contact-top {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    padding: 10px;
+    margin-left: -30px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+}
+
+#contact-bottom {
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 10px;
+    margin-left: -30px;
+    width: 60px;
+    height: 20px;
+    z-index: 1;
+}
